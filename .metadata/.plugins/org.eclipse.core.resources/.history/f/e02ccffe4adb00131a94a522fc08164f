@@ -56,8 +56,8 @@ class Customer {
         return result;
     }
     
-    private double amountFor(Rental each) {	//int to double 
-        double thisAmount = 0;				//int to double
+    private int amountFor(Rental each) { 
+        int thisAmount = 0;
         switch (each.getMovie().getPriceCode()) {
             case Movie.REGULAR:
                 thisAmount += 2;
