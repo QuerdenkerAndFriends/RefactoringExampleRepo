@@ -24,8 +24,7 @@ class Customer {
         while (enum_rentals.hasMoreElements()) {
             double thisAmount = 0;
             Rental each = (Rental) enum_rentals.nextElement();
-            thisAmount = each.getCharge();
-            //thisAmount = amountFor(each);
+            thisAmount = amountFor(each);
             //determine amounts for each line
             /*switch (each.getMovie().getPriceCode()) {
                 case Movie.REGULAR:
