@@ -59,7 +59,7 @@ public class Movie {
     }
     
     public int getFrequentRenterPoints(int daysRented) {
-        return _price.getFrequentRenterPoints(daysRented);
+        return 0;//_price.getFrequentRenterPoints(daysRented);
     }
     
 	/*public int getFrequentRenterPoints(int daysRented) {
